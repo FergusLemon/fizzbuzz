@@ -23,5 +23,6 @@ describe 'fizzbuzz' do
   end
   it 'returns the number passed in when it is not divisible by 3, 5 or both numbers' do
     expect(fizzbuzz(101)).to eq 101
+    expect(fizzbuzz(0)).to eq 0
   end
 end
