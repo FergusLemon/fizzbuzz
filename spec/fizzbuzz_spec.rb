@@ -12,6 +12,9 @@ describe 'fizzbuzz' do
   it 'returns "buzz" when passed 5' do
     expect(fizzbuzz(5)).to eq 'buzz'
   end
+  it 'returns "buzz" when passed a number divisble by 5' do
+    expect(fizzbuzz(25)).to eq 'buzz'
+  end
   it 'returns "fizzbuzz" when passed 15' do
     expect(fizzbuzz(15)).to eq 'fizzbuzz'
   end
