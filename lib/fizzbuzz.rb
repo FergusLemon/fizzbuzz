@@ -1,4 +1,5 @@
 def fizzbuzz(number)
+  raise ArgumentError, "You cannot pass the #{number.class} #{number} to #fizzbuzz, please try again with an Integer." unless number.is_a? Integer
   if number == 0
     number
   elsif number%3 == 0 && number%5 == 0
