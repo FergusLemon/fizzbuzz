@@ -30,3 +30,11 @@ You cannot pass the Float 3.0 to #fizzbuzz, please try again with an integer.
 You cannot pass the String "hello" to #fizzbuzz, please try again with an integer.
 You cannot pass the Array [1, 2, 3] to #fizzbuzz, please try again with an integer.
 ```
+### Installation
+
+- [ ] Step 1 - Clone this repository by copying the link available at the top of this webpage in the green button labelled 'Clone or Download'. 
+- [ ] Step 2 - Open up a Terminal window (Mac OS) and run `git clone <link>` where `<link>` is what you copied in the previous step.
+- [ ] Step 3 - `cd` into the directory you just cloned.
+- [ ] Step 4 - Open `irb`, `pry` or any other interactive Ruby interpreter.
+- [ ] Step 5 - `require` the fizzbuzz.rb file located in the `lib` directory, if your interatcive interpreter doesn't automatically require all files in the `lib` directory. 
+- [ ] Step 6 - play fizzbuzz.
