@@ -18,3 +18,15 @@ Fizz
 Buzz
 FizzBuzz
 ```
+If an integer is not provided as the argument the program will throw an error to alert the user based on the argument they provided.
+```
+>> fizzbuzz(3.0)
+>> fizzbuzz("hello")
+>> fizzbuzz([1, 2, 3])
+```
+Would result in the following Argument Errors:
+```
+You cannot pass the Float 3.0 to #fizzbuzz, please try again with an integer.
+You cannot pass the String "hello" to #fizzbuzz, please try again with an integer.
+You cannot pass the Array [1, 2, 3] to #fizzbuzz, please try again with an integer.
+```
