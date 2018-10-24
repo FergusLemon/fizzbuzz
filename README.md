@@ -36,5 +36,5 @@ You cannot pass the Array [1, 2, 3] to #fizzbuzz, please try again with an integ
 - [ ] Step 2 - Open up a Terminal window (Mac OS) and run `git clone <link>` where `<link>` is what you copied in the previous step.
 - [ ] Step 3 - `cd` into the directory you just cloned.
 - [ ] Step 4 - Open `irb`, `pry` or any other interactive Ruby interpreter.
-- [ ] Step 5 - `require` the fizzbuzz.rb file located in the `lib` directory, if your interatcive interpreter doesn't automatically require all files in the `lib` directory. 
+- [ ] Step 5 - `require` the fizzbuzz.rb file located in the `lib` directory.  Your interactive Ruby interpreter may have done this for you already depending on its configuration settings, if so jump to Step 6. 
 - [ ] Step 6 - play fizzbuzz.
